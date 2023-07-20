@@ -6,10 +6,10 @@ class Solution:
             o = 0
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
             for s in string:
-                if string == "x":
+                if string == "X":
                     x = x+1
-                if string == "o":
-                    o = 0+1
+                if string == "O":
+                    o = o + 1
             if x == o:
                  return True
             else:
