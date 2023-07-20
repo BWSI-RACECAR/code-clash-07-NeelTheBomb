@@ -6,9 +6,9 @@ class Solution:
             o = 0
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
             for s in string:
-                if string == "X":
+                if s == "X":
                     x = x+1
-                if string == "O":
+                if s == "O":
                     o = o + 1
             if x == o:
                  return True
